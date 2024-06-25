@@ -105,7 +105,7 @@ class EGIPAdapter_Mad_AssistantV2:
         return (layer_weights,)
 
 NODE_CLASS_MAPPINGS = {
-    " EGIPAdapter_Mad_Assistant":  EGIPAdapter_Mad_Assistant,
+    "EGIPAdapter_Mad_Assistant": EGIPAdapter_Mad_Assistant,
     "EGIPAdapter_Mad_AssistantV2": EGIPAdapter_Mad_AssistantV2
 }
 NODE_DISPLAY_NAME_MAPPINGS = {
