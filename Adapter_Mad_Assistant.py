@@ -54,8 +54,8 @@ class EGIPAdapter_Mad_Assistant:
 import random
 
 class EGIPAdapter_Mad_AssistantV2:
-    CATEGORY_KEYS = ['0layer', '1layer', '2layer', '3layer', '4layer', '5layer', '6layer', '7layer', '8layer', '9layer', '10layer', '11layer']
-    OPTIONS = {str(i): str(i) for i in range(0, 12)}
+    CATEGORY_KEYS = ['0layer', '1layer', '2layer', '3layer', '4layer', '5layer', '6layer', '7layer', '8layer', '9layer', '10layer']
+    OPTIONS = {str(i): str(i) for i in range(0, 11)}
 
     def __init__(self):
         pass
@@ -84,7 +84,7 @@ class EGIPAdapter_Mad_AssistantV2:
     CATEGORY = "ipadapter"
 
     def generate_prompt(self, **kwargs):
-        prompt_parts = {str(i): 0.0 for i in range(0, 12)}
+        prompt_parts = {str(i): 0.0 for i in range(0, 11)}
         for i, key in enumerate(self.CATEGORY_KEYS):
             # Since the super key is hidden, we use the index to find the corresponding weight
             weight_key = f"{key} Weight"
