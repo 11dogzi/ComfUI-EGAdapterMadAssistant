@@ -7,8 +7,10 @@ Hello! I am Er Gouzi (2) 🐕）！ This is a hierarchical auxiliary project for
 
 ## 分层助手    
 Layered Assistant        
-滑块式快捷调整0-10层的注入权重，实现IPAdapter风格迁移的不同结果
+滑块式快捷调整0-10层的注入权重，实现IPAdapter风格迁移的不同结果    
+EGIPAdapter_Mad_Assistant节点为0-10层（0.0-1.0），EGIPAdapter_Mad_AssistantV2节点为0-10层（-1.0-1.0）    
 Quickly adjust the injection weights of layers 0-10 in a slider style to achieve different results of IPAdapter style transfer   
+The EGIPAdapter-Mad-Assistant node has 0 to 10 layers (0.0 to 1.0), and the EGIPAdapter-Mad-AssistantV2 node has 0 to 10 layers (-1.0 to 1.0)    
 ![节点界面](explain/节点界面.png "节点界面")    
 节点分类（安装后可以在IPAdapter直接找到它，节点的名字为EGIPAdapter_Mad_Assistant）    
 Node classification (after installation, it can be directly found in IPAdapter, and the node name is EGIPAdapter-Mad-Assistant)   
