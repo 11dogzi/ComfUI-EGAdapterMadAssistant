@@ -24,7 +24,7 @@ Convert the layer_weights in the IPAdapter Mad Scientist node to input and direc
 
 ## 随机模式   
 Random mode    
-将Random设置为Yes则按照手动滑条权重进行对应层的输出，且只对非0权重进行0-1的权重随机，例如：0-10层中6层权重为1，则0，1，2，3，4，5，7，8，9，10层权重为随机权重，6层始终保持手动设置的权重1    
+将Random设置为Yes则按照手动滑条权重进行对应层的输出，且只对0权重进行0-1的权重随机，例如：0-10层中6层权重为1，则0，1，2，3，4，5，7，8，9，10层权重为随机权重，6层始终保持手动设置的权重1    
 If Random is set to Yes, the output of the corresponding layer will be based on the manual slider weight, and only the weight of non-zero weights will be randomly assigned to 0-1. For example, if the weight of 6 layers in the 0-10 layer is 1, then the weights of 0, 1, 2, 3, 4, 5, 7, 8, 9, and 10 layers will be randomly assigned, and the weight of 6 layers will always maintain the manually set weight of 1    
 ![随机模式](explain/随机模式.png "随机模式")     
 ![随机演示](explain/随机演示.png "随机演示")   
