@@ -1,0 +1,14 @@
+[project]
+name = "comfui-egadaptermadassistant"
+description = "This is a hierarchical auxiliary project of the IPAdapter project, which uses a slider to quickly control the hierarchical weights and add fully random and semi random modes"
+version = "1.0.0"
+license = "LICENSE"
+
+[project.urls]
+Repository = "https://github.com/11dogzi/ComfUI-EGAdapterMadAssistant"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = ""
+DisplayName = "ComfUI-EGAdapterMadAssistant"
+Icon = ""
